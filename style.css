@@ -230,6 +230,7 @@ header > .container_header {
         margin-left: 0;
     }
 }
+
 @media screen and (max-width: 500px) {
     .about_img img{
         height: 300px;
@@ -308,6 +309,16 @@ header > .container_header {
 }
 .area_home_achievements hr {
     margin-top: 70px;
+}
+
+.achievements-ttl span {
+    display: inline;
+}
+
+@media screen and (max-width: 540px) {
+    .achievements-ttl .line1 {
+        display: block;
+    }
 }
 
 /* wroks */
