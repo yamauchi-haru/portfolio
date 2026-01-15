@@ -295,7 +295,26 @@ header > .container_header {
     }
 }
 
+/* achievements */
+.achievements_ttl{
+    font-weight: bold;
+    font-size: 20px;
+}
+.achievements_ttl_1{
+    padding-bottom: 7px;
+}
+.achievements_main{
+    margin: 30px 0;
+}
+.area_home_achievements hr {
+    margin-top: 70px;
+}
+
 /* wroks */
+.area_home_works{
+    padding-top: 0;
+}
+
 .layout_3{
     display: flex;
     flex-wrap: wrap;
